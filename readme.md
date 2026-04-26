@@ -76,14 +76,7 @@ http://localhost:8001
 - Nao ha cadastro de usuarios
 - Nao ha recuperacao de senha
 - Nao ha trilha de auditoria de acessos
-
-## Proximos Passos Recomendados
-
-1. Persistir usuarios em banco de dados (MySQL/PostgreSQL).
-1. Armazenar apenas hashes de senha gerados por `password_hash`.
-1. Adicionar politicas de senha forte e recuperacao por email.
-1. Implementar logs de seguranca e monitoramento de tentativas.
-1. Adicionar testes automatizados para autenticacao.
+- Mas construindo de maneira mais formal e cuidadosa, é uma atualização que irá vir a ser feita.
 
 
 
