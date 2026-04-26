@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+:root {
+  --preto-900: #0f0f10;
+  --preto-800: #1a1a1d;
+  --grafite: #2a2a2f;
+  --cinza-300: #c8c8ce;
+  --cinza-100: #f2f2f5;
+  --branco: #ffffff;
+  --erro: #d64545;
+  --sucesso: #1f8f4e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  min-height: 100vh;
+  color: var(--cinza-100);
+  background:
+    radial-gradient(circle at 15% 15%, #222228 0%, transparent 35%),
+    radial-gradient(circle at 85% 85%, #303036 0%, transparent 32%),
+    linear-gradient(135deg, var(--preto-900), var(--preto-800));
+}
+
+.layout-principal {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.cartao-login {
+  width: 100%;
+  max-width: 460px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.45);
+  padding: 32px;
+}
+
+.cabecalho-cartao {
+  margin-bottom: 22px;
+}
+
+.selo {
+  display: inline-block;
+  font-size: 0.76rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--cinza-300);
+  margin-bottom: 10px;
+}
+
+.cabecalho-cartao h1 {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-weight: 700;
+  color: var(--branco);
+}
+
+.subtitulo {
+  margin-top: 10px;
+  color: var(--cinza-300);
+}
+
+.formulario-login {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formulario-login label {
+  margin-top: 8px;
+  font-size: 0.92rem;
+  color: var(--cinza-100);
+}
+
+.formulario-login input {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 12px;
+  padding: 12px 14px;
+  background: rgba(18, 18, 20, 0.85);
+  color: var(--branco);
+  font-size: 0.95rem;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.formulario-login input::placeholder {
+  color: #9a9aa2;
+}
+
+.formulario-login input:focus {
+  outline: none;
+  border-color: var(--branco);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.16);
+}
+
+.botao-primario,
+.botao-secundario {
+  margin-top: 14px;
+  border: 0;
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.botao-primario {
+  background: var(--branco);
+  color: var(--preto-900);
+}
+
+.botao-primario:hover {
+  background: #dcdce0;
+}
+
+.botao-secundario {
+  display: inline-block;
+  background: transparent;
+  color: var(--branco);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.botao-secundario:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.feedback-erro,
+.feedback-sucesso {
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  font-size: 0.92rem;
+}
+
+.feedback-erro {
+  color: #ffd8d8;
+  background: rgba(214, 69, 69, 0.2);
+  border: 1px solid rgba(214, 69, 69, 0.4);
+}
+
+.feedback-sucesso {
+  color: #d7f8e5;
+  background: rgba(31, 143, 78, 0.18);
+  border: 1px solid rgba(31, 143, 78, 0.45);
+}
+
+.feedback-sucesso h2 {
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
+
+.form-logout {
+  margin-top: 10px;
+}
+
+.dica-acesso {
+  margin-top: 14px;
+  color: var(--cinza-300);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 520px) {
+  .cartao-login {
+    padding: 24px 18px;
+  }
+}
