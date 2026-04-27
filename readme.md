@@ -8,7 +8,7 @@ Este projeto demonstra um fluxo de login com validação no servidor.
 
 ## Tecnologias
 
-- PHP
+- *PHP*
 - HTML5
 - CSS3
 - Sessões nativas do PHP
