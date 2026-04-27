@@ -1,10 +1,10 @@
 # LoginUpgrade
 
-Sistema basico de autenticacao desenvolvido em PHP, com interface responsiva em HTML/CSS e foco em fundamentos de seguranca para estudo e evolucao.
+Sistema de autenticação desenvolvido em PHP com interface responsiva em HTML/CSS.
 
 ## Objetivo
 
-Este projeto demonstra um fluxo simples de login com validacao no servidor.
+Este projeto demonstra um fluxo de login com validação no servidor.
 
 ## Tecnologias
 
