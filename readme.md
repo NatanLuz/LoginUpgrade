@@ -20,7 +20,7 @@ Este projeto demonstra um fluxo de login com validação no servidor.
 - `Login.PNG`: captura de tela da tela de login
 - `Loginrealizado.PNG`: captura de tela apos autenticacao
 
-## Screenshots
+## Screenshots do Projeto
 
 ### Efetuando o login
 
