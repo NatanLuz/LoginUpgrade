@@ -17,7 +17,7 @@ $credenciais = [
     'email' => 'admin@exemplo.com',
     // Senha de teste: 123456
     // Gerada com password_hash('123456', PASSWORD_DEFAULT)
-    // O hash pode variar dependendo da versão do PHP, mas o password_verify() irá funcionar corretamente.
+    // ATENÇÃO: O hash pode variar dependendo da versão do PHP, mas o password_verify() irá funcionar corretamente.
     // Exemplo de hash para a senha "123456"
 
     'senha_hash' => '$2y$10$L3EF0M8fU6fX8jJ3S1zx7.el7rX8m2Ihcb9vlyjo8fKHwrwSITd0i',
