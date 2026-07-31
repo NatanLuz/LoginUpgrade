@@ -1,4 +1,4 @@
-# LoginUpgrade
+# Login Upgrade Sistema de Autenticação
 
 ## 📖 Sobre o projeto
 
